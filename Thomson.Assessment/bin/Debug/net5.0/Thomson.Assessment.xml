@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Thomson.Assessment</name>
+    </assembly>
+    <members>
+        <member name="M:Thomson.Assessment.Controllers.CaseController.Get">
+            <summary>
+            List all cases
+            </summary>
+            <returns>A list of cases</returns>
+        </member>
+        <member name="M:Thomson.Assessment.Controllers.CaseController.Get(System.String)">
+            <summary>
+            Find a specific case by its number
+            </summary>
+            <param name="caseNumber">The case number identifier to be retrieved</param>
+            <returns>The case with the provided identifier</returns>
+        </member>
+        <member name="M:Thomson.Assessment.Controllers.CaseController.Post(Thomson.Assessment.Model.Case)">
+            <summary>
+            Create a new case
+            </summary>
+            <param name="myCase">The case to be created</param>
+            <returns>A boolean with true if the specified case was really created or false if it was not.</returns>
+        </member>
+        <member name="M:Thomson.Assessment.Controllers.CaseController.Put(Thomson.Assessment.Model.Case)">
+            <summary>
+            Update an existing case
+            </summary>
+            <param name="myCase">The case with its new attributes</param>
+            <returns>A boolean with true if the specified case was really updated or false if it was not.</returns>
+        </member>
+        <member name="M:Thomson.Assessment.Controllers.CaseController.Delete(System.String)">
+            <summary>
+            Delete a case
+            </summary>
+            <param name="caseNumber">The case number identifier to be deleted</param>
+            <returns>A boolean with true if the specified case was really deleted or false if it was not.</returns>
+        </member>
+    </members>
+</doc>
